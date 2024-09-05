@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.12941177, g: 0.20000002, b: 0.20392159, a: 1}
-  m_FogMode: 2
-  m_FogDensity: 0.01
+  m_FogColor: {r: 0.087620154, g: 0.10292341, b: 0.103773594, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.04
   m_LinearFogStart: 0
   m_LinearFogEnd: 63.72
   m_AmbientSkyColor: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 1}
@@ -503,8 +503,8 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.92285514, b: 0.48584908, a: 1}
-  m_Intensity: 1.1
-  m_Range: 17.266571
+  m_Intensity: 1.75
+  m_Range: 30
   m_SpotAngle: 22.820688
   m_InnerSpotAngle: 1
   m_CookieSize: 10
@@ -534,7 +534,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 2800000, guid: adfa0ebfcb79c7042be5b04397144b3e, type: 3}
   m_DrawHalo: 1
   m_Flare: {fileID: 0}
   m_RenderMode: 0
