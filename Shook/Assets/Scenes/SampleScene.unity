@@ -1269,7 +1269,7 @@ Light:
   m_Color: {r: 1, g: 0.92285514, b: 0.48584908, a: 1}
   m_Intensity: 1.75
   m_Range: 30
-  m_SpotAngle: 22.820688
+  m_SpotAngle: 37.2
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
@@ -2192,7 +2192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -12.569}
+  m_AnchoredPosition: {x: 0, y: -12.56897}
   m_SizeDelta: {x: -770.9685, y: -25.137512}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1177142811
@@ -3434,6 +3434,7 @@ Transform:
   m_Children:
   - {fileID: 896646734}
   - {fileID: 1215395141}
+  - {fileID: 2103531053}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1722925944
@@ -4460,6 +4461,55 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5505107393850548868, guid: 594495229a57e2f409569ef0a08f53da, type: 3}
   m_PrefabInstance: {fileID: 2035601927}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2103531052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2103531053}
+  - component: {fileID: 2103531054}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2103531053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103531052}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1714595971}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2103531054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103531052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d698995e4e75dce44b102fa4bd728513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InventoryUIPanel: {fileID: 182879043}
+  HotbarPanel: {fileID: 612830085}
+  hotbarPos: {fileID: 0}
+  hotbarInInventoryPos: {fileID: 0}
+  isAnyUIOpen: 0
 --- !u!143 &1694180043104447672
 CharacterController:
   m_ObjectHideFlags: 0
