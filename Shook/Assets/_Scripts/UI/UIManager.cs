@@ -12,7 +12,6 @@ public class UIManager : MonoBehaviour {
     [SerializeField] private GameObject InventoryUIPanel;
     [SerializeField] private GameObject HotbarPanel;
 
-    public RectTransform hotbarPanelRectTransform;
 
     public bool isAnyUIOpen = false;
 
@@ -20,7 +19,7 @@ public class UIManager : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        hotbarPanelRectTransform = HotbarPanel.GetComponent<RectTransform>();
+
     }
 
     // Update is called once per frame
@@ -29,9 +28,6 @@ public class UIManager : MonoBehaviour {
             OpenPanel(InventoryUIPanel);
         }
 
-        if (InventoryUIPanel.activeSelf)
-            hotbarPanelRectTransform.anchoredPosition = new Vector3(0, -216, 0);
-        else hotbarPanelRectTransform.anchoredPosition = new Vector3(0, -413, 0);
 
     }
 
