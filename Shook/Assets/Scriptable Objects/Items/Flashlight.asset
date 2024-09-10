@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124f472746f356f4284983d35c5a1ab6, type: 3}
   m_Name: Flashlight
   m_EditorClassIdentifier: 
-  name: Flashlight
+  name: FlashLight
   icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}

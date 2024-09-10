@@ -14,8 +14,9 @@ public class ItemSlot : MonoBehaviour {
         }
     }
 
-    // Update is called once per frame
-    void Update() {
-
+    public void UpdateItem() {
+        icon.sprite = itemSO.icon;
+        itemName.text = itemSO.name;
     }
+
 }

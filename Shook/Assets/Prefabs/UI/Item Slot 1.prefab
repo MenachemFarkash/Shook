@@ -260,7 +260,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FlashLight
+  m_text: empty
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ccf286398894b7348aefe0bee88c2a43, type: 2}
   m_sharedMaterial: {fileID: -1531665686613285263, guid: ccf286398894b7348aefe0bee88c2a43, type: 2}
